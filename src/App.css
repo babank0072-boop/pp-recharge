@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+
+#root {
+    width: 100%;
+}
+
+.bg-phonepe {
+    background-color: #5f259f;
+}
