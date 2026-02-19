@@ -253,9 +253,7 @@ export default function RechargePage() {
         </div>
       </div>
 
-      <div>
-        <img src="/banner-2.webp" />
-      </div>
+     
     </div>
   );
 }

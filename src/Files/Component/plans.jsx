@@ -149,9 +149,9 @@ const Plans = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <img src="/banner-2.webp" />
-        </div>
+        </div> */}
       </div>
     </>
   );

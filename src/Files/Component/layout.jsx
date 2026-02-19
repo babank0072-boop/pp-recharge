@@ -2,8 +2,8 @@ import React from "react";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-slate-100 h-screxen overflow-audto">
-      <div className="flex items-center justify-between gap-3 bg-[#fff]">
+    <div className="bg-slate-100 h-full flex justify-start items-center flex-col">
+      <div className="flex w-full items-center justify-between gap-3 bg-[#fff]">
         <div class="py-4 px-6 bg-white w-full flex items-center justify-between border-b border-slate-100 mb-0">
           {/* header */}
           <div class="flex items-center">
@@ -45,11 +45,14 @@ const Layout = ({ children }) => {
       {children}
 
       {/* footer */}
-      <img
+      {/* <img
         src="https://mediumseagreen-herring-263052.hostingersite.com/static/media/gpayfooter.11f558d98dc0e11b50d8.webp"
         alt=""
         className="mt-3"
-      />
+      /> */}
+      <div className="mt-5">
+        <img src="/banner-2.webp" />
+      </div>
     </div>
   );
 };
