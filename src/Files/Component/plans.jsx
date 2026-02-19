@@ -104,7 +104,7 @@ const Plans = () => {
           </div>
         </div>
       )}
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <div className="bg-white py-4 px-4 text-[13.4px] flex items-center justify-between">
           <div className="flex items-center">
             <img
