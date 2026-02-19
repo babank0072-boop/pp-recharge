@@ -2,7 +2,7 @@ import React from "react";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-slate-100 h-screen overflow-auto">
+    <div className="bg-slate-100 h-screxen overflow-audto">
       <div className="flex items-center justify-between gap-3 bg-[#fff]">
         <div class="py-4 px-6 bg-white w-full flex items-center justify-between border-b border-slate-100 mb-0">
           {/* header */}

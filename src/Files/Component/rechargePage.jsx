@@ -28,13 +28,13 @@ export default function RechargePage() {
 
   return (
     <div>
-      <div class="px-2">
+      {/* <div class="px-2">
         <img
           src="https://mediumseagreen-herring-263052.hostingersite.com/static/media/gpaybanner.7eef6b2d81d4cc1cbede.png"
           alt=""
           className="rounded-xl"
         />
-      </div>
+      </div> */}
 
       <div className="w-full p-2">
         <img src="/banner-1.webp" className="rounded-xl " />
